@@ -1,6 +1,12 @@
 $containerWidth: 940px;
 $baseFontSize: 18px;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+@import "media1";
+
 $blue: #61c4d9;
 $darkGreen: #0b4d3c;
 
@@ -24,6 +30,8 @@ $darkGreen: #0b4d3c;
 @import "components/form";
 @import "components/radio";
 @import "components/fixed-menu";
+@import "components/fixed-menu";
+@import "components/hamburger";
 
 
 

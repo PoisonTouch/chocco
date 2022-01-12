@@ -1,6 +1,6 @@
 .reviews__display {
   background: #f8faf9;
-  padding: 50px 45px 34px;
+  padding: rem(50px) rem(45px) rem(34px);
 }
 
 .reviews__display-inner {
@@ -10,8 +10,8 @@
 }
 
 .reviews__avatar {
-  width: 254px;
-  height: 260px;
+  width: rem(254px);
+  height: rem(260px);
 }
 .reviews__avatar-img {
   -o-object-fit: cover;

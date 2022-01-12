@@ -2,8 +2,8 @@
     display: flex;
     cursor: pointer;
 
-    margin-left: 15px;
-    margin-top: 12px;
+    margin-left: rem(15px);
+    margin-top: rem(12px);
 
     
 
@@ -19,8 +19,8 @@
         }
     }
     .radio__visible {
-        width: 26px;
-        height: 26px;
+        width: rem(26px);
+        height: rem(26px);
         position: relative;
         border-radius: 50%;
         background: #fff;
@@ -30,8 +30,8 @@
         &:before {
             content:"";
             display: block;
-            width: 14px;
-            height: 14px;
+            width: rem(14px);
+            height: rem(14px);
             background: #365a49;
             border-radius: 50%;
             position: absolute;

@@ -5,14 +5,26 @@
 }
 
 .benefits__item {
-  -webkit-box-flex: 1px;
-      -ms-flex: 1px;
-          flex: 1px;
-  margin: 0 3%;
+  -webkit-box-flex: rem(1px);
+      -ms-flex: rem(1px);
+          flex: rem(1px);
+  padding: 0 3%;
+  position: relative;
+}
+.benefits__item:before {
+  content: url("../../images/decor/separator.png");
+  position: absolute;
+  top: rem(50px);
+  right: 0;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
 }
 .benefits__item:first-child {
-  margin-left: 0;
+  padding-left: 0;
 }
 .benefits__item:last-child {
-  margin-right: 0;
+  padding-right: 0;
+}
+.benefits__item:last-child:before {
+  display: none;
 }

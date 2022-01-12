@@ -1,9 +1,10 @@
 .headline__title {
-  margin-bottom: 25px;
+  margin-bottom: rem(25px);
 }
 
 .headline {
   text-align: center;
+  padding-bottom: rem(50px);
 }
 
 .headline__subtitle {

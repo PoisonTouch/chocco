@@ -3,14 +3,14 @@
 }
 
 .benefits__item {
-    flex: 1px;
+    flex: rem(1px);
     padding: 0 3%;
     position: relative;
 
     &:before{
         content:url("../../images/decor/separator.png");
         position: absolute;
-        top: 50px;
+        top: rem(50px);
         right: 0;
         transform: translateX(50%);
     }
